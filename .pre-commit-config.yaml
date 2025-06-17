@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: license-check
+        name: "Check license headers"
+        entry: ./scripts/check_license.sh
+        language: system
+        pass_filenames: false

@@ -1,0 +1,20 @@
+
+headerPath = "scripts/license-header.txt"
+
+includes = [
+    "Makefile",
+    "*.h",
+    "*.cpp",
+    "*.c",
+    "*.sh",
+    "*.html",
+    "*.js",
+    "*.ts",
+    "*.cjs",
+]
+
+[properties]
+copyrightOwner = "Apple Inc. and the Containerization project authors"
+
+[mapping.SINGLE_LINE_DOUBLESLASH_STYLE]
+extensions = ["cpp"]
